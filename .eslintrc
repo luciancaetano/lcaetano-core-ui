@@ -1,0 +1,6 @@
+{
+    "extends": "@lcaetano/eslint-config",
+    "rules": {
+        "import/no-relative-parent-imports": "off"
+    }
+}

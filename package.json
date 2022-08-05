@@ -1,0 +1,29 @@
+{
+  "name": "@lcaetano/core-ui",
+  "version": "1.0.0",
+  "description": "Basic front app shared code",
+  "author": "Lucian Caetano",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "rimraf lib && tsc",
+    "start:dev": "rimraf lib && tsc --watch"
+  },
+  "dependencies": {
+    "@lcaetano/eslint-config": "^1.0.0",
+    "eslint": "^8.21.0",
+    "lodash": "^4.17.21",
+    "react-router": "^6.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/luciancaetano/lcaetano-core-ui/issues"
+  },
+  "homepage": "https://github.com/luciancaetano/lcaetano-core-ui#readme",
+  "peerDependencies": {
+    "eslint": "^8.21.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.182"
+  }
+}
